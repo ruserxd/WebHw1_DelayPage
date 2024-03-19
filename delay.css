@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body {
+    text-align: center;
+    background-image: url("imgs/delayPic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:15% 15%;
+}
+
+h1 {
+    position:absolute;
+    top:2vw;
+    right:1vw;
+    font-size: 7vw;
+    color: rgb(255, 0, 204);
+}
+footer {
+    text-align: center;
+    font-size: 2vw;
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, 50%); /* 將背景元素向左上角平移50%的距離，使其位於螢幕中心下方 */
+}
+a {
+    color: rgb(255, 0, 204);
+}
+a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
