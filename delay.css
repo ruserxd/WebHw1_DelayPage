@@ -1,9 +1,9 @@
 @charset "UTF-8";
 body {
     text-align: center;
-    background-image: url("imgs/delayPic.jpg");
+    background-image: url("imgs/delayPic.avif");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position:15% 15%;
 }
 
@@ -12,7 +12,9 @@ h1 {
     top:2vw;
     right:1vw;
     font-size: 7vw;
+    -webkit-text-stroke: 1.5px #000000;
     color: rgb(255, 0, 204);
+    text-shadow: black 0.01em 0.01em 0.02em
 }
 footer {
     text-align: center;
@@ -23,6 +25,7 @@ footer {
     transform: translate(-50%, 50%); /* 將背景元素向左上角平移50%的距離，使其位於螢幕中心下方 */
 }
 a {
+    -webkit-text-stroke: 0.5px #000000;
     color: rgb(255, 0, 204);
 }
 a:hover {
