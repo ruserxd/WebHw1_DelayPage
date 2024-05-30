@@ -1,11 +1,7 @@
 @charset "UTF-8";
 body {
     text-align: center;
-<<<<<<< HEAD
-    background-image: url("imgs/delayPic.jpg");
-=======
     background-image: url("imgs/CuteTiger.jpg");
->>>>>>> e26c271 (CHG bck pic to Tiger ,fix color of font and make some phone chg)
     background-size: cover;
     background-repeat: repeat;
     background-position: 10% 15%; /* 向左移動背景圖片 */
