@@ -80,18 +80,35 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-    body {
-        background-position: 50% 15%;
-    }
-
-    h1 {
-        font-size: 10vw;
-        top: 5vw;
-        right: 2vw;
-    }
-
     footer {
-        font-size: 4vw;
-        top: 95%;
+        position: fixed;
+        top: 90%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        z-index: 1000;
+        font-size: 32px;
+    }
+
+    #icon-container, #music-player {
+        position: fixed;
+        bottom: 70px; /* 稍微提高位置，以避免与footer文本重叠 */
+        font-size: 1em; /* 调整图标大小 */
+    }
+
+    #icon-container {
+        left: 10px;
+    }
+
+    #music-player {
+        left: 60px;
+        font-size: 25px;
+    }
+
+    #play-pause-btn i {
+        font-size: 2em;
     }
 }
