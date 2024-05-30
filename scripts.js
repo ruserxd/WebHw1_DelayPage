@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
     playPauseBtn.addEventListener('click', function() {
         if (audio.paused || audio.ended) {
             audio.play();
-            playPauseIcon.className = 'fas fa-pause'; // 更改为暂停图标
+            playPauseIcon.className = 'fas fa-pause';
         } else {
             audio.pause();
-            playPauseIcon.className = 'fas fa-play'; // 更改为播放图标
+            playPauseIcon.className = 'fas fa-play';
         }
     });
 
