@@ -14,4 +14,9 @@ document.addEventListener('DOMContentLoaded', function() {
             playPauseIcon.className = 'fas fa-play'; // 更改为播放图标
         }
     });
+
+    // 加载 particles.js 配置文件
+    particlesJS.load('particles-js', 'particlesjs-config.json', function() {
+        console.log('particles.js config loaded');
+    });
 });
