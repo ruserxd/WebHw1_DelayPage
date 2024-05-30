@@ -4,7 +4,7 @@ body {
     background-image: url("imgs/CuteTiger.jpg");
     background-size: cover;
     background-repeat: repeat;
-    background-position: 10% 15%; /* 向左移動背景圖片 */
+    background-position: 10% 5%;
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
     padding: 0;
@@ -22,7 +22,7 @@ h1 {
     right: 1vw;
     font-size: 7vw;
     -webkit-text-stroke: 1.5px #000000;
-    color: rgb(255, 140, 0); /* 使用橙色搭配圖片中的老虎顏色 */
+    color: rgb(255, 140, 0);
     text-shadow: black 0.01em 0.01em 0.02em;
 }
 
@@ -37,28 +37,52 @@ footer {
 
 a {
     -webkit-text-stroke: 0.5px #000000;
-    color: rgb(255, 140, 0); /* 使用橙色搭配圖片中的老虎顏色 */
+    color: rgb(255, 140, 0);
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(255, 69, 0); /* 使用深橙色作為懸停效果 */
+    color: rgb(255, 69, 0);
 }
 
-/* 手機裝置上的樣式 */
+#icon-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+    color: #FF8C00;
+}
+
+#icon-container a {
+    color: inherit;
+}
+
+#music-player {
+    position: fixed;
+    bottom: 20px;
+    left: 100px;
+    z-index: 1000;
+}
+
+#play-pause-btn i {
+    color: #FF8C00;
+    cursor: pointer;
+    font-size: 3em;
+}
+
 @media (max-width: 768px) {
     body {
-        background-position: 50% 15%; /* 調整背景圖片位置以適應手機螢幕 */
+        background-position: 50% 15%;
     }
 
     h1 {
-        font-size: 10vw; /* 調整字體大小以適應手機螢幕 */
+        font-size: 10vw;
         top: 5vw;
         right: 2vw;
     }
 
     footer {
-        font-size: 4vw; /* 調整字體大小以適應手機螢幕 */
+        font-size: 4vw;
         top: 85%;
     }
 }

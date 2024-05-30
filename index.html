@@ -3,31 +3,42 @@
 
 <head>
     <meta charset="UTF-8">
-    <!--KUNWEIWU_Web的等待頁面 -->
     <title>KUNWEIWU_Web_Waiting_Page</title>
-    <!-- 網站是專為吳堃瑋而設計的 -->
     <meta name="keywords" content="WUKUNWEI_Web_DelayWeb">
     <meta name="description" content="因應WUKUNWEI_Web的延遲處理">
-    <!-- 設定了址欄的主題顏色為亮綠色 -->
     <meta name="theme-color" content="#09ea49">
-
-    <!--NoteSane 的字型-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!--減少螢幕接觸延遲-->
-    <meta name="viewport" content="width=device-width">
-    <!--引入 CSS 的檔案進delay.html-->
-    <link href="delay.css" rel ="stylesheet" media="all">
-    <!-- 引入 JS -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="delay.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script defer src="scripts.js"></script>
 </head>
+
 <body>
 <div id="main">
-    <h1>當掉了嗎<br>嗷<br>交給專業的來</h1>
+    <h1>當掉了嗎<br>哼<br>交給專業的來</h1>
+</div>
+<div id="footer-controls">
+    <div id="icon-container">
+        <a href="https://forms.gle/nxJeDJTNkUdF3dmg6" target="_blank">
+            <i class="fas fa-question-circle fa-3x"></i>
+        </a>
+    </div>
+    <div id="music-player">
+        <audio id="audio">
+            <source src="musics/song1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <div id="play-pause-btn">
+            <i class="fas fa-play"></i>  <!-- Font Awesome 播放图标 -->
+        </div>
+    </div>
 </div>
 <footer>
     <a href="https://ruserxd.github.io/MyIntroduceWeb/">可再次重新連接</a>
 </footer>
+
 </body>
 </html>
