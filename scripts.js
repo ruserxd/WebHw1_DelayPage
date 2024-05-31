@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
     document.body.classList.add('fade-in');
 
-    var audio = document.getElementById('audio');
-    var playPauseBtn = document.getElementById('play-pause-btn');
-    var playPauseIcon = playPauseBtn.querySelector('i');
+    let audio = document.getElementById('audio');
+    let playPauseBtn = document.getElementById('play-pause-btn');
+    let playPauseIcon = playPauseBtn.querySelector('i');
 
     playPauseBtn.addEventListener('click', function() {
         if (audio.paused || audio.ended) {
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // 加载 particles.js 配置文件
+    // 加載 particles.js 配置文件
     particlesJS.load('particles-js', 'particlesjs-config.json', function() {
         console.log('particles.js config loaded');
     });
